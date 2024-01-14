@@ -15,9 +15,9 @@ stages:
     - bash: echo $(Build.BuildId)
     - bash: echo $(Build.SourceBranchName)
     - bash: echo $(Build.SourcesDirectory)
-    - bash: echo $(System.DefaultWorkingDirectory)
+    - bash: echo Working Directory is $(System.DefaultWorkingDirectory)
     - bash: ls -R $(System.DefaultWorkingDirectory)
-    - bash: echo $(Build.ArtifactStagingDirectory)
+    - bash: echo Artifact Staging Directory is $(Build.ArtifactStagingDirectory)
     - bash: echo 
     - bash: java -version
     - bash: node --version
