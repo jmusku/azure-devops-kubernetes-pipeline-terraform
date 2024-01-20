@@ -7,7 +7,7 @@ variable environment {
 }
 
 variable location {
-    default = "aus-east"
+    default = "australiaeast"
 }
 
 variable node_count {
